@@ -5,7 +5,7 @@ def line(customer_line)
     puts "The line is currently empty."
   elsif customer_line.size >= 1
     counter = 1
-    output = "The line is currently: "
+    output = "The line is currently:"
       until counter == customer_line.size + 1
         output << " #{counter}. #{customer_line[counter-1]}"
         counter += 1

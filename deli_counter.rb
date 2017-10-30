@@ -7,7 +7,7 @@ def line(customer_line)
     counter = 1
     output = "The line is currently: "
       until counter == customer_line.size + 1
-        output << "#{counter}. #{customer_line[counter-1]}"
+        output << " #{counter}. #{customer_line[counter-1]}"
         counter += 1
       end
   puts output

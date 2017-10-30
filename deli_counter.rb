@@ -9,7 +9,7 @@ def line(customer_line)
       until counter == customer_line.size + 1
       output << "#{counter}. #{customer_line[counter-1]}"
       end
-    puts "#{output}"
+    puts output
 
 
   end

@@ -23,15 +23,7 @@ def now_serving(customer_line)
   if customer_line.size == 0
     puts "There is nobody waiting to be served!"
   else
-    puts "Currently serving #{customer_line[0]}."
     customer_line = customer_line.shift
-    counter = 1
-    output = "The line is currently:"
-      until counter == customer_line.size + 1
-        output << " #{counter}. #{customer_line[counter-1]}"
-        counter +=1
-      end
-    puts output
 
   end
 

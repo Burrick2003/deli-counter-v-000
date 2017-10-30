@@ -16,11 +16,13 @@ end
 
 def take_a_number(customer_line, new_customer)
   customer_line << new_customer
-
   puts "Welcome, #{new_customer}. You are number #{customer_line.size} in line."
 end
 
-def now_serving
-
+def now_serving(customer_line)
+  if customer_line.size == 0
+    puts "There is nobody waiting to be served!"
+  else
+  end
 
 end

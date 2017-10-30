@@ -14,7 +14,10 @@ def line(customer_line)
   end
 end
 
-def take_a_number
+def take_a_number(customer_line, new_customer)
+  customer_line << new_customer
+  newcust_number = customer_line.size
+  puts "Welcome, #{new_customer}. You are number #{newcust_number} in line."
 
 
 end
